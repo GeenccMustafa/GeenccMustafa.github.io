@@ -1,0 +1,101 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    line-height: 1.8; /* Slightly increased line-height for better readability */
+    background-color: #f7f8fa; /* Light background for contrast */
+}
+
+.section-padding {
+    padding-top: 100px; /* Reduced padding for a more compact look */
+    padding-bottom: 100px;
+}
+
+.divider {
+    border-bottom: 1px solid rgba(0,0,0,0.1); /* Slightly darker for better visibility */
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500; /* Added weight for link readability */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+/* Border Hover Effect */
+.border-hover {
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    padding: 16px; /* Added padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+.border-hover:hover {
+    border-color: var(--bs-info);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect on hover */
+}
+
+/* Intro Section */
+.intro-section p {
+    max-width: 600px; /* Slightly wider for readability */
+    margin: 0 auto; /* Centering the paragraph */
+    font-size: 1.1rem; /* Increased font size for readability */
+    color: #555; /* Softer color for readability */
+}
+
+/* Navbar */
+.navbar {
+    transition: all 0.4s ease-out;
+    background-color: #ffffff; /* Background color for clearer visibility */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow for navbar */
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 15px; /* Slightly increased font size */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333; /* Darker color for readability */
+    padding: 8px 16px; /* Added padding for spacing */
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--bs-info);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* Service */
+.service .icon {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: var(--bs-info);
+    font-size: 34px;
+    border-radius: 50%; /* Circular icons for a clean look */
+    box-shadow: inset 2px 2px 8px rgba(55, 94, 148, 0.2), inset -2px -2px 8px rgba(255, 255, 255, 0.9); /* Softer shadow for a polished effect */
+}
+
+/* Footer */
+.btn-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-grid;
+    align-content: center;
+    padding: 0;
+    font-weight: normal;
+    border-radius: 50%; /* Rounded icons for a modern look */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.btn-icon:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Slight background color change on hover */
+}

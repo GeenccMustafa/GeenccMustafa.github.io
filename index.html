@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Machine Learning Engineer Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-4 fixed-top navbar-light bg-body">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h4 class="fw-bold">Mustafa Genc</h4></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#volunteering-contact">Contact</a> <!-- Updated to #volunteering-contact -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Hero -->
+    <div id="hero" class="section-padding divider">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-3">
+                    <img data-aos="fade-down" data-aos-delay="200" src="./assets/images/hero.png" 
+                        class="mx-auto d-block img-fluid rounded-circle" 
+                        alt="Mustafa Genc" 
+                        style="width: 290px; height: 250px;">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="fw-bold display-4" data-aos="fade-up">I AM A <br/> <span class="text-info">ML ENGINEER & NLP EXPERT</span></h1>
+                    <a data-aos="fade-up" data-aos-delay="300" href="#work" class="btn btn-outline-info mr-2">My Work</a>
+                    <a data-aos="fade-up" data-aos-delay="300" href="https://www.linkedin.com/in/mustafageencc/" class="btn btn-outline-info mr-2"><i class="ri-linkedin-fill"></i></a>
+                    <a data-aos="fade-up" data-aos-delay="300" href="https://github.com/GeenccMustafa" class="btn btn-outline-info mr-2"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work -->
+    <div id="work" class="section-padding divider">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold">Portfolio</h1>
+                        <p class="mx-auto">Welcome to my portfolio! Here, you'll find a showcase of projects that blend my 
+                            professional expertise with academic insights. Each project represents a unique idea and practical application, 
+                            crafted to demonstrate the skills and knowledge I've developed throughout my journey. 
+                            For each project, I’ve included links to explore further on GitHub. 
+                            I hope you find these projects inspiring, insightful, and reflective of my passion for data science and technology.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/topic_extraction.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">pyLDAvis, gensim, string, re</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Topic extraction</h5></a>
+                        <a href="https://github.com/GeenccMustafa/AUDI-reviews-topic-extraction-" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/web_scraping.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">spaCy, web scraping, Selenium</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">AUDI Google reviews scraping</h5></a>
+                        <a href="https://github.com/GeenccMustafa/AUDI-Google-review-scraping" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/sentiment_analysis.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">transformers, spacy, numpy, pandas</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">AUDI Reviews Sentiment Analysis</h5></a>
+                        <a href="https://github.com/GeenccMustafa/AUDI-sentiment-analyse-dependency-parse" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/spam_detection.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info"> tensorflow, keras</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Spam Detection</h5></a>
+                        <a href="https://github.com/GeenccMustafa/Spam-Detection-NLP-" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/lorem_minds.png" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">vectorDatabase, transformers, semanticSearch</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Lorem Minds App</h5></a>
+                        <a href="https://loremminds.com/" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-earth-fill"></i></a>
+                        <a href="https://www.linkedin.com/company/loremminds/about/" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/fairness.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">pandas, numpy, matplotlib, seaborn, sklearn, xgb</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Fairness in ML</h5></a>
+                        <a href="https://github.com/GeenccMustafa/fairness" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-5">
+                        <img src="./assets/images/customer_reviews.webp" class="img-fluid rounded-5 mb-3" alt="">
+                        <span class="badge bg-info">sklearn, selenium, BeautifulSoup, nltk, matplotlib</span>
+                        <a href="#" class="d-block mt-2"><h5 class="fw-bold">Customer review analysis on Amazon dataset</h5></a>
+                        <a href="https://github.com/GeenccMustafa/customer_review_analysis" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume -->
+    <div id="resume" class="section-padding divider">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold">About Me</h1>
+                        <p class="mx-auto">
+                            I am an ML Engineer with a strong foundation in NLP, machine learning, and document processing. 
+                            My experience spans a range of impactful projects, including fine-tuning large language models (LLMs), building Retrieval-Augmented Generation (RAG) systems, 
+                            and developing semantic similarity search engines using vector databases. 
+                            I have expertise in document clustering, OCR solutions, and creating advanced Named Entity Recognition (NER) models for information extraction. 
+                            Additionally, I’ve implemented Explainable AI to make model outputs accessible to stakeholders and used visualization tools like Tableau to drive data insights. 
+                            My technical skills extend to deploying scalable microservices with Docker and FastAPI, and managing projects with GitLab and Confluence. 
+                            My thesis focused on enhancing text simplification in LegalTech using curriculum learning and the T5 model, showcasing my dedication to pushing the boundaries of NLP applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-3">
+                    <h5>ML Engineer / NLP Expert </h5>
+                    <small class="text-info">2024-Current</small>
+                </div>
+                <div class="col-md-9">
+                    <p class="mb-0">
+                        &bull; Fine-tuned <strong>LLMs</strong> (GPT-4, LLaMA 2, Deepseek, BERT) for various NLP tasks  
+                        <br>&bull; Developed <strong>RAG systems</strong> using vector databases (<strong>Qdrant/FAISS</strong>) for document search and retrieval  
+                        <br>&bull; Built a <strong>document clustering pipeline</strong> with OCR, layout analysis, and embedding-based similarity  
+                        <br>&bull; Designed an <strong>NLP microservice pipeline</strong> for chatbot deployment with retrieval and synthetic text generation  
+                        <br>&bull; Developed <strong>NLP microservices</strong> with <strong>FastAPI, Docker, and Streamlit</strong> for scalable model deployment  
+                        <br>&bull; Implemented <strong>semantic similarity search</strong> using vector databases  
+                        <br>&bull; Applied <strong>unsupervised document clustering</strong> to organize and cluster related documents  
+                        <br>&bull; Benchmarked <strong>tokenization strategies</strong> (WordPiece, Byte-Pair Encoding, SentencePiece) for structured document processing  
+                        <br>&bull; Developed <strong>NER models</strong> for extracting information from unstructured text  
+                        <br>&bull; Implemented <strong>OCR solutions</strong> for structured text extraction  
+                        <br>&bull; Applied <strong>Explainable AI</strong> techniques to interpret model decisions  
+                        <br>&bull; Collaborated with cross-functional teams to integrate AI-driven solutions  
+                    </p>                                    
+                </div>  
+            </div>
+            <div class="row gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="200">
+                
+                <div class="col-md-3">
+                    <h5>Data Scientist</h5>
+                    <small class="text-info">2022-2023</small>
+                </div>
+                <div class="col-md-9">
+                    <p class="mb-0">
+                        &bull; Fine-tuned transformers (<strong>BERT, RoBERTa, T5</strong>) for classification and emotion detection
+                        <br>&bull; Applied <strong>Explainable AI</strong> techniques to interpret model insights for stakeholders and clients
+                        <br>&bull; Created visualizations and dashboards with <strong>Tableau</strong>
+                        <br>&bull; Analyzed dataset features for model optimization
+                        <br>&bull; Web scraping across countries for automotive data using <strong>Playwright, API calls, Selenium, Beautiful Soup</strong>
+                        <br>&bull; Processed PDF documents for text extraction and analysis
+                        <br>&bull; Managed projects with <strong>GitLab, Confluence, Anaconda, Poetry, Pre-commit</strong>
+                        <br>&bull; Integrated <strong>AWS S3</strong> and <strong>Lambda</strong> for data storage and processing
+                    </p>
+                </div>
+                
+            </div>
+            <div class="row mt-4 gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="300">
+                
+                <div class="col-md-3">
+                    <h5>Data Scientist Intern</h5>
+                    <small class="text-info">2022</small>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        &bull; Contributed to an <strong>AI-based persona project</strong> for the automotive sector using German and English datasets
+                        <br>&bull; Fine-tuned transformer models (<strong>BERT, RoBERTa, T5</strong>) for text classification and emotion detection
+                        <br>&bull; Prepared and processed complex datasets with <strong>Pandas</strong> for analysis
+                        <br>&bull; Benchmarked <strong>ML (sklearn)</strong> and <strong>DL (PyTorch)</strong> models for customer review insights
+                        <br>&bull; Analyzed customer interviews using <strong>spaCy</strong> to support persona development
+                        <br>&bull; Documented code and presented findings to stakeholders
+                    </p>
+                </div>                  
+            </div>
+            <div class="row mt-4 gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-md-3">
+                    <h5>Master's Degree</h5>
+                    <small class="text-info">2019-2023</small>
+                </div>
+                <div class="col-md-9">
+                    <p class="mb-0">
+                        &bull; Completed a <strong>Master’s degree in Politics & Technology</strong> at the <strong>Technical University of Munich</strong>.
+                        <br>&bull; Focused on <strong>data science and machine learning modules</strong> with an emphasis on:
+                        <br><span style="margin-left:24px">&bull; Advanced programming skills</span>
+                        <br><span style="margin-left:24px">&bull; Hands-on, practical applications</span>
+                        <br>&bull; Gained a broad and interdisciplinary foundation, enhancing expertise in:
+                        <br><span style="margin-left:24px">&bull; <strong>Natural Language Processing (NLP)</strong></span>
+                        <br><span style="margin-left:24px">&bull; <strong>Machine Learning</strong></span>
+                        <br>&bull; Developed the skills and knowledge needed to address complex, real-world challenges across multiple domains.
+                        
+                        <br><br><strong>Thesis: Enhancing Text Simplification through Baby-Step Curriculum Learning: A Case Study on Privacy Policies Using the T5 Model</strong>
+                        
+                        <br><span style="margin-left:24px">&bull; <em>NLP for Text Simplification</em>: Addressed the challenges of simplifying complex texts, specifically privacy policies, using advanced NLP techniques.</span>
+                        <br><span style="margin-left:24px">&bull; <em>Curriculum Learning Approach</em>: Applied a baby-step curriculum learning approach to improve text simplification, a novel technique that structures training in progressive stages.</span>
+                        <br><span style="margin-left:24px">&bull; <em>Model and Tools</em>: Leveraged the <strong>T5 Transformer</strong> model, with evaluations based on BLEU, SARI, and FKGL metrics.</span>
+                    </p>
+                    <!-- <button class="btn btn-outline-info me-2" type="button" data-target="#t1_details" 
+                        data-toggle="collapse">More<span class="fas fa-angle-down toggle-arrow ml-1"></span></button> -->
+                </div>
+            </div>
+        </div>
+<!-- Familiar Tools & Technologies -->
+<div id="tools-technologies" class="section-padding divider">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-up">
+                <div class="intro-section text-center mb-5">
+                    <h1 class="fw-bold">Familiar Tools & Technologies</h1>
+                    <p class="mx-auto">A curated list of tools and technologies I frequently use, categorized based on their application areas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-0 gy-4 p-5 border-hover rounded-5 shadow" data-aos="fade-up">
+
+            <div class="col-md-6">
+                <h5 class="fw-bold">🔍 LLM Training & Fine-Tuning</h5>
+                <p>Transformers, SentenceTransformers, OpenAI, LangChain, TRL, PEFT/QLoRA, DeepSeek-R1, CohereForAI/aya-vision-8b</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">⚡ LLM Inference & Optimization</h5>
+                <p>Groq LLM Inference Engine, CLIP Models, FastText, Gensim, Mixedbread Tokenizers (German Language Processing)</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">🗃️ Vector Databases & Semantic Search</h5>
+                <p>Qdrant, FAISS, ChromaDB, Haystack, Weaviate, JinaAI</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">⚙️ Machine Learning & Experiment Tracking</h5>
+                <p>PyTorch, PyTorch Lightning, Scikit-learn, MLFlow, DVC, ONNX</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">📝 OCR & Document Layout Analysis</h5>
+                <p>Mistral OCR, Tesseract, HURIDOCS/pdf-document-layout-analysis, LayoutLMv3, PDFMiner, PyMuPDF, Textract, PaddleOCR</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">📖 NLP & Text Processing</h5>
+                <p>SpaCy, NLTK, Doccano</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">📊 Data Visualization</h5>
+                <p>Tableau, Matplotlib, Seaborn, Plotly</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">📐 Data Processing & Analysis</h5>
+                <p>Pandas, NumPy</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">🌐 Web Scraping & Automation</h5>
+                <p>BeautifulSoup, Selenium, Playwright, Scrapy</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">☁️ Cloud Infrastructure & Containers</h5>
+                <p>AWS-EC2, AWS-Lambda, AWS-S3, Docker</p>
+            </div>
+        
+            <div class="col-md-6">
+                <h5 class="fw-bold">🚀 Backend & APIs</h5>
+                <p>FastAPI, Celery, Redis, Flower</p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold">💬 Conversational AI & UI</h5>
+                <p>Chainlit, Streamlit, Gradio</p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold">📂 Databases</h5>
+                <p>SQL, PostgreSQL, MongoDB</p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold">💻 System & Workflow</h5>
+                <p>Linux, Agile-Scrum</p>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+<!-- Volunteering & Mentorship and Contact Section -->
+<div id="volunteering-contact" class="section-padding"> <!-- Combined ID for easy scrolling -->
+    <div class="container">
+        <!-- Volunteering & Mentorship Section -->
+        <div class="intro-section text-center mb-5" data-aos="fade-up">
+            <h1 class="fw-bold">Volunteering & Mentorship</h1>
+            <p class="mx-auto">
+                In addition to my professional work, I am passionate about giving back to the community and helping others on their career paths.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="p-4 border-hover shadow rounded-5">
+                    <h5 class="fw-bold">Volunteer Teaching</h5>
+                    <p class="mb-0">Volunteer teacher in Machine Learning at <a href="https://www.redi-school.org/munich" target="_blank" class="text-info">ReDI School</a>, helping to bridge the gap in technology education.</p>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="p-4 border-hover shadow rounded-5">
+                    <h5 class="fw-bold">Career Mentorship</h5>
+                    <p class="mb-0">If you would like a one-on-one session for career guidance, feel free to arrange a free session by sending an email to <a href="mailto:mustafa.gencc94@gmail.com" class="text-info">mustafa.gencc94@gmail.com</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="row mt-5">
+            <div class="col-12" data-aos="fade-up">
+                <div class="intro-section text-center">
+                    <h1 class="fw-bold">Contact Me</h1>
+                    <p class="mx-auto">Thank you for exploring my portfolio! If you have any questions or would like to connect, please feel free to reach out – 
+                       I’d be happy to discuss my work or explore potential collaborations.</p>
+                    <a href="https://www.linkedin.com/in/mustafageencc/" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/GeenccMustafa" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-github-fill"></i></a>
+                    <a href="mailto:mustafa.gencc94@gmail.com" class="btn btn-outline-info ms-2 btn-icon"><i class="ri-mail-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
