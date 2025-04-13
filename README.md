@@ -38,6 +38,7 @@ This site includes:
 
 | Project | Tools | Links |
 |--------|-------|--------|
+| **Resume Job Matcher** | Tesseract OCR, LLM (Gemini), Prefect| [GitHub](https://github.com/GeenccMustafa/resume_job_matcher?tab=readme-ov-file) • [YouTube](https://www.youtube.com/watch?v=OicAeBOEFdk) |
 | **German Translator** | Streamlit, Transformers, TTS | [GitHub](https://github.com/GeenccMustafa/AUDI-reviews-topic-extraction-) • [YouTube](https://www.youtube.com/watch?v=XqK_CJWDzUE) |
 | **Topic Extraction** | pyLDAvis, gensim, re | [GitHub](https://github.com/GeenccMustafa/AUDI-reviews-topic-extraction-) |
 | **AUDI Review Scraping** | spaCy, Selenium | [GitHub](https://github.com/GeenccMustafa/AUDI-Google-review-scraping) |
