@@ -39,14 +39,15 @@ This site includes:
 | Project | Tools | Links |
 |--------|-------|--------|
 | **Resume Job Matcher** | Tesseract OCR, LLM (Gemini), Prefect| [GitHub](https://github.com/GeenccMustafa/resume_job_matcher?tab=readme-ov-file) • [YouTube](https://www.youtube.com/watch?v=OicAeBOEFdk) |
+| **ChainForge** | Chainforge, Llama3, Mistral, Ollama| [Medium](https://medium.com/@mustafa.gencc94/exploring-prompt-engineering-at-scale-with-chainforge-b82aa356323a) • [YouTube](https://www.youtube.com/watch?v=O9QBHTOm3pU) |
 | **German Translator** | Streamlit, Transformers, TTS | [GitHub](https://github.com/GeenccMustafa/AUDI-reviews-topic-extraction-) • [YouTube](https://www.youtube.com/watch?v=XqK_CJWDzUE) |
+| **Literary GraphRAG** | NetworkQ, Qdrant | [GitHub](https://github.com/GeenccMustafa/literary-graphrag-ollama) |
+| **Elderly Care Assessment Assistant** | FastAPI, LlamaIndex, Docker, MLFlow | [GitHub](https://github.com/GeenccMustafa/elderly_care_assesment) |
+| **Fairness in ML** | xgboost, seaborn | [GitHub](https://github.com/GeenccMustafa/fairness) |
 | **Topic Extraction** | pyLDAvis, gensim, re | [GitHub](https://github.com/GeenccMustafa/AUDI-reviews-topic-extraction-) |
 | **AUDI Review Scraping** | spaCy, Selenium | [GitHub](https://github.com/GeenccMustafa/AUDI-Google-review-scraping) |
 | **Sentiment Analysis** | transformers, pandas | [GitHub](https://github.com/GeenccMustafa/AUDI-sentiment-analyse-dependency-parse) |
-| **Spam Detection** | Keras, TensorFlow | [GitHub](https://github.com/GeenccMustafa/Spam-Detection-NLP-) |
 | **Customer Reviews Analysis** | sklearn, nltk | [GitHub](https://github.com/GeenccMustafa/customer_review_analysis) |
-| **Fairness in ML** | xgboost, seaborn | [GitHub](https://github.com/GeenccMustafa/fairness) |
-| **Lorem Minds App** | Transformers, Qdrant | [Website](https://loremminds.com) •
 
 ---
 
@@ -54,7 +55,7 @@ This site includes:
 
 - **ML Engineer (2024–Now):**
     - Fine-tuned LLMs (GPT-4, LLaMA, BERT)
-    - Built RAG systems, clustering pipelines, NER models, and more
+    - Built RAG and GraphRAG systems, clustering pipelines, NER models, and more
  
 - **Data Scientist (2022–2023):**
     - Built NLP dashboards, performed scraping and classification tasks
@@ -65,7 +66,7 @@ This site includes:
 
 ## 🛠️ Familiar Tools & Technologies
 
-- LLM Training: Transformers, TRL, QLoRA, LangChain, 
+- LLM Training: Transformers, TRL, QLoRA, LangChain, Ollama
 - OpenAIInference: Groq, CLIP, FastText, 
 - GensimSemantic Search: Qdrant, FAISS, ChromaDB, Haystack
 - ML & Tracking: PyTorch, Sklearn, DVC, MLFlow, ONNX
@@ -75,7 +76,7 @@ This site includes:
 - Data: Pandas, NumPy
 - Scraping: BeautifulSoup, Selenium, Playwright
 - Cloud & DevOps: AWS, Docker, FastAPI
-- UI & Chatbots: Streamlit, Gradio, Chainlit
+- UI & Chatbots: Streamlit, Gradio, Chainlit, Chainforge
 - Databases: SQL, PostgreSQL, MongoDB
 - System: Linux, Agile-Scrum
 
