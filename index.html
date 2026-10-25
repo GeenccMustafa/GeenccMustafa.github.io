@@ -93,14 +93,14 @@
                     <div class="p-4 border-hover shadow rounded-5 h-100 focus-card">
                         <div class="focus-icon"><i class="ri-rocket-2-line"></i></div>
                         <h5 class="fw-bold">Deployment to Production</h5>
-                        <p class="mb-0">Containerised AI services with Docker and FastAPI, using both local and cloud LLM APIs. Every service runs with CI/CD, experiment tracking and monitoring.</p>
+                        <p class="mb-0">Containerised microservices on self-hosted and cloud GPU infrastructure (Docker, FastAPI, Celery/Redis, vLLM). Every service runs with CI/CD and is monitored for quality, latency and cost.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="p-4 border-hover shadow rounded-5 h-100 focus-card">
                         <div class="focus-icon"><i class="ri-file-search-line"></i></div>
                         <h5 class="fw-bold">Document AI & OCR</h5>
-                        <p class="mb-0">End-to-end pipelines that turn unstructured documents into structured, queryable knowledge. They combine OCR, layout analysis, semantic chunking and LLM-based extraction.</p>
+                        <p class="mb-0">End-to-end pipelines that turn unstructured, scanned documents into structured, validated data using OCR, layout analysis, embeddings and LLM-based extraction. They cut processing time from days to hours.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -114,7 +114,7 @@
                     <div class="p-4 border-hover shadow rounded-5 h-100 focus-card">
                         <div class="focus-icon"><i class="ri-scales-3-line"></i></div>
                         <h5 class="fw-bold">Evaluation & Guardrails</h5>
-                        <p class="mb-0">Systematic benchmarks with Ragas, DeepEval and ChainForge, plus A/B testing and guardrails. I also measure cost, latency and caching.</p>
+                        <p class="mb-0">Reproducible evaluation harnesses with Langfuse and DeepEval, plus A/B benchmarking. Guardrails cover prompt-injection mitigation, output validation and GDPR-aware data handling.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
@@ -141,14 +141,14 @@
                 </div>
             </div>
             <div class="row gy-4">
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="p-4 border-hover shadow rounded-5 h-100">
-                        <div class="proj-cover rounded-5 mb-3"><i class="ri-route-line"></i></div>
-                        <span class="badge bg-info">Python, FastAPI, Docker</span>
-                        <span class="badge bg-info">k-NN routing, calibration, evaluation</span>
-                        <a href="https://github.com/GeenccMustafa/agent-router" class="d-block mt-2"><h5 class="fw-bold">Agent Router</h5></a>
-                        <p class="proj-desc">Routes a natural-language query to the right specialist agent, with calibrated confidence and a clarify/abstain policy. Includes a full evaluation pipeline.</p>
-                        <a href="https://github.com/GeenccMustafa/agent-router" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                        <div class="proj-cover rounded-5 mb-3"><i class="ri-government-line"></i></div>
+                        <span class="badge bg-info">dbt, DuckDB, Airflow</span>
+                        <span class="badge bg-info">S3 object storage, Postgres, Streamlit</span>
+                        <a href="https://github.com/GeenccMustafa/bundestag-lakehouse" class="d-block mt-2"><h5 class="fw-bold">Bundestag Lakehouse <span class="badge badge-wip align-middle">In progress</span></h5></a>
+                        <p class="proj-desc">An end-to-end data platform on the German Bundestag open-data API. Raw data lands in Bronze, is cleaned into Silver and modelled into a Gold star schema, all incremental, tested and orchestrated with Airflow.</p>
+                        <a href="https://github.com/GeenccMustafa/bundestag-lakehouse" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
@@ -222,14 +222,13 @@
                         <a href="https://www.youtube.com/watch?v=O9QBHTOm3pU" class="btn btn-outline-info ms-2 btn-icon" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="p-4 border-hover shadow rounded-5 h-100">
-                        <div class="proj-cover rounded-5 mb-3"><i class="ri-government-line"></i></div>
-                        <span class="badge bg-info">dbt, DuckDB, Airflow</span>
-                        <span class="badge bg-info">S3 object storage, Postgres, Streamlit</span>
-                        <a href="https://github.com/GeenccMustafa/bundestag-lakehouse" class="d-block mt-2"><h5 class="fw-bold">Bundestag Lakehouse</h5></a>
-                        <p class="proj-desc">A Bronze → Silver → Gold lakehouse on the German Bundestag open-data API. It is incremental, tested and orchestrated.</p>
-                        <a href="https://github.com/GeenccMustafa/bundestag-lakehouse" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                        <img src="./assets/images/fairness.webp" class="img-fluid rounded-5 mb-3 proj-img" alt="Fairness in ML">
+                        <span class="badge bg-info">pandas, numpy, matplotlib, seaborn, sklearn, xgb</span>
+                        <a href="https://github.com/GeenccMustafa/fairness" class="d-block mt-2"><h5 class="fw-bold">Fairness in ML</h5></a>
+                        <p class="proj-desc">A toolkit for measuring and mitigating bias in ML models, so their risks and limitations can be identified and counteracted.</p>
+                        <a href="https://github.com/GeenccMustafa/fairness" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
                     </div>
                 </div>
             </div>
@@ -245,14 +244,6 @@
                         <a href="https://github.com/GeenccMustafa/nlp_experiments/tree/main/german_to_eng_translator" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
                         <a href="https://www.youtube.com/watch?v=XqK_CJWDzUE" class="btn btn-outline-info ms-2 btn-icon" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
                         <a href="https://medium.com/@mustafa.gencc94/building-an-interactive-german-learning-assistant-translator-examples-and-local-tts-with-python-f8a91e9db45c" class="btn btn-outline-info ms-2 btn-icon" aria-label="Medium"><i class="ri-medium-fill"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="p-4 border-hover shadow rounded-5">
-                        <img src="./assets/images/fairness.webp" class="img-fluid rounded-5 mb-3 proj-img" alt="Fairness in ML">
-                        <span class="badge bg-info">pandas, numpy, matplotlib, seaborn, sklearn, xgb</span>
-                        <a href="https://github.com/GeenccMustafa/fairness" class="d-block mt-2"><h5 class="fw-bold">Fairness in ML</h5></a>
-                        <a href="https://github.com/GeenccMustafa/fairness" class="btn btn-outline-info ms-2 btn-icon" aria-label="GitHub"><i class="ri-github-fill"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -299,31 +290,28 @@
                     <div class="intro-section text-center mb-5">
                         <h1 class="fw-bold">Experience</h1>
                         <p class="mx-auto">
-                            I'm a Machine Learning Engineer focused on agentic AI in production. I design multi-agent systems and
-                            agentic workflows, and ship them as scalable, containerised services with evaluation built in. I also build the
-                            document processing, OCR and retrieval pipelines that turn unstructured documents into knowledge those
-                            agents can use. I work with both open-weight and proprietary LLMs, choosing and tuning models for
-                            accuracy, latency and cost.
+                            4+ years delivering end-to-end LLM and data solutions in regulated, document-heavy enterprise environments.
+                            I build agentic workflows, RAG pipelines and document AI, and ship them to production with safety guardrails,
+                            systematic evaluation, and ongoing monitoring of quality, latency and cost.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row gx-0 gy-4 p-5 border-hover rounded-5 shadow mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-md-3">
-                    <h5>Machine Learning Engineer</h5>
+                    <h5>Machine Learning Engineer / AI Engineer</h5>
                     <small class="text-info">2024 – Present</small>
                 </div>
                 <div class="col-md-9">
                     <p class="mb-0">
-                        &bull; Design and build <strong>AI agent systems</strong>: multi-step LLM agents with tool use, memory and reasoning
-                        <br>&bull; Take <strong>agentic workflows from prototype to production</strong> as containerised services (<strong>Docker, FastAPI</strong>) that integrate local and cloud LLM APIs
-                        <br>&bull; Build production <strong>RAG pipelines</strong> (OCR, layout analysis, semantic chunking, hybrid vector search) and raised extraction accuracy by <strong>+20% F1</strong> through eval-driven optimisation
-                        <br>&bull; Develop <strong>Document AI / OCR pipelines</strong> with Mistral OCR, Chandra OCR, GLM-OCR, Docling, LayoutLMv3, PaddleOCR and PyMuPDF, benchmarked systematically
-                        <br>&bull; Prototype <strong>PEFT / QLoRA fine-tuning</strong> with TRL for document intelligence and benchmark it against proprietary LLM APIs on accuracy, latency and cost
-                        <br>&bull; Run <strong>systematic evaluation</strong> and prompt engineering with <strong>Ragas, DeepEval and ChainForge</strong>, including A/B benchmarking
-                        <br>&bull; Set up <strong>MLOps</strong>: CI/CD with GitHub Actions, MLflow experiment tracking, DVC data versioning
-                        <br>&bull; Build <strong>n8n automation workflows</strong> that connect AI outputs to business processes
-                        <br>&bull; Lead weekly knowledge sessions on new AI research and tools, and mentor junior ML engineers
+                        &bull; Built <strong>agentic AI workflows</strong> (coding and document-processing agents) with tool calling, structured outputs and automated verification of generated code, orchestrated via <strong>Prefect</strong>. They automate complex multi-step processing and significantly speed up turnaround for clients.
+                        <br>&bull; Shipped end-to-end LLM solutions with advanced <strong>RAG pipelines</strong> (hybrid BM25 + dense retrieval, cross-encoder reranking) and optimised prompt design, turning static document repositories into context-aware search and Q&amp;A.
+                        <br>&bull; Developed <strong>document AI / OCR pipelines</strong> for unstructured data: ingestion, OCR and layout analysis (<strong>Mistral OCR, Docling, PaddleOCR</strong>), embeddings and structured extraction from scanned enterprise documents. Automated, validated extraction replaced manual review and cut processing time <strong>from days to hours</strong>.
+                        <br>&bull; Built reproducible <strong>evaluation harnesses</strong> (<strong>Langfuse, DeepEval</strong>) covering retrieval recall, faithfulness and groundedness, and ran A/B benchmarks across prompt and model variants. This improved field-extraction accuracy by <strong>+20% F1</strong> and made rollout decisions evidence-based.
+                        <br>&bull; Monitored deployed LLM services for <strong>quality, latency and cost</strong> by benchmarking open-weight and proprietary models and analysing failure cases. This led to a switch to <strong>self-hosted open-weight serving</strong>, which significantly reduced inference cost at stable quality.
+                        <br>&bull; Implemented <strong>LLM safety and compliance guardrails</strong>: prompt-injection mitigation, input/output validation, structured-output enforcement and GDPR-aware data handling. These enabled <strong>zero-incident enterprise deployment</strong>.
+                        <br>&bull; Deployed all solutions to production as <strong>containerised microservices</strong> on self-hosted and cloud GPU infrastructure (<strong>Docker, FastAPI, Celery/Redis, vLLM, MLflow, CI/CD</strong>), with full control over data residency and cost.
+                        <br>&bull; Lead weekly sessions prototyping and benchmarking new AI models and OCR/embedding approaches, build internal tooling for LLM development and evaluation, and mentor colleagues.
                     </p>
                 </div>
             </div>
@@ -335,13 +323,9 @@
                 </div>
                 <div class="col-md-9">
                     <p class="mb-0">
-                        &bull; Translated business requirements into ML solution designs: customer segmentation, multi-label classification, sentiment and emotion analysis
-                        <br>&bull; Fine-tuned and evaluated transformers (<strong>BERT, RoBERTa, T5</strong>) for domain-specific NLP tasks
-                        <br>&bull; Built Python data pipelines over <strong>100k+ customer feedback items</strong>, which cut manual analysis effort by <strong>~40%</strong>
-                        <br>&bull; Integrated internal APIs, databases and LLM services into unified processing pipelines
-                        <br>&bull; Applied <strong>SHAP and LIME</strong> to make model outputs explainable to non-technical stakeholders
-                        <br>&bull; Processed PDF documents for text extraction; scraped web data with <strong>Playwright, Selenium and Beautiful Soup</strong>
-                        <br>&bull; Built <strong>Tableau</strong> dashboards and used <strong>AWS S3 and Lambda</strong> for data storage and processing
+                        &bull; Translated an automotive enterprise client's business requirements into technical ML designs and advised stakeholders on feasibility, data needs and model trade-offs. The resulting transformer models (<strong>multi-label classification, emotion detection, customer segmentation</strong>) directly shaped campaign targeting and marketing strategy.
+                        <br>&bull; Built an automated Python pipeline combining <strong>topic modelling with zero/few-shot learning</strong> over <strong>100k+ customer feedback items</strong>, integrated with internal APIs and databases. It cut manual analysis effort by <strong>~40%</strong>.
+                        <br>&bull; Applied <strong>SHAP and LIME</strong> and presented results to non-technical decision-makers, keeping model outputs transparent within cross-functional agile teams.
                     </p>
                 </div>
 
@@ -428,7 +412,7 @@
 
             <div class="col-md-6">
                 <h5 class="fw-bold">☁️ Cloud & Data</h5>
-                <p>AWS (EC2, Lambda, S3), PostgreSQL, MongoDB, SQL, dbt, DuckDB</p>
+                <p>AWS (EC2, Lambda, S3), Python, SQL, Pydantic, PostgreSQL, MongoDB, dbt, DuckDB</p>
             </div>
 
             <div class="col-md-6">
@@ -458,28 +442,40 @@
             </div>
         </div>
         <div class="row gy-4">
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="p-4 border-hover shadow rounded-5 h-100">
-                    <h5 class="fw-bold">Transformers & LLMs</h5>
-                    <p class="mb-0">A 13-part series on attention, training and the internal mechanics of large language models.</p>
+                    <h5 class="fw-bold">I Deployed Local LLMs in Production for a Year</h5>
+                    <p class="mb-0">A two-part account of running self-hosted LLMs in production: infrastructure, costs and lessons learned.</p>
                 </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="p-4 border-hover shadow rounded-5 h-100">
-                    <h5 class="fw-bold">The Architecture of Deception</h5>
-                    <p class="mb-0">How RAG systems fail in production, and how to catch it.</p>
-                </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
                 <div class="p-4 border-hover shadow rounded-5 h-100">
                     <h5 class="fw-bold">Ollama vs vLLM</h5>
                     <p class="mb-0">A comprehensive guide to local LLM serving.</p>
                 </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="p-4 border-hover shadow rounded-5 h-100">
-                    <h5 class="fw-bold">Agents, GraphRAG & OCR</h5>
-                    <p class="mb-0">Deep-dives on LLM agent architecture, a GraphRAG implementation guide, and a benchmark comparing Mistral OCR, Chandra OCR and GLM-OCR.</p>
+                    <h5 class="fw-bold">PaddleOCR-VL 1.5</h5>
+                    <p class="mb-0">A deep dive into the 0.9B model that outperforms GPT-4o on document parsing.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="p-4 border-hover shadow rounded-5 h-100">
+                    <h5 class="fw-bold">The Architecture of Deception</h5>
+                    <p class="mb-0">How RAG systems fail in production, and how to catch it.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="p-4 border-hover shadow rounded-5 h-100">
+                    <h5 class="fw-bold">Graphify</h5>
+                    <p class="mb-0">Build a knowledge graph from your entire codebase without sending your code to anyone.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="p-4 border-hover shadow rounded-5 h-100">
+                    <h5 class="fw-bold">Transformers & LLMs</h5>
+                    <p class="mb-0">A 13-part series on attention, training and the internal mechanics of large language models.</p>
                 </div>
             </div>
         </div>
